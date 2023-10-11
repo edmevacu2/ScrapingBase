@@ -1,11 +1,11 @@
 import requests
 
-# Making a GET request
+# Haciendo la solicitud
 r = requests.get('https://www.geeksforgeeks.org/python-programming-language/')
 
-# check status code for response received
-# success code - 200
+# Se muestra el estado de la solicitud
+# para solicitudes exitosas el codigo es 200
 print(r)
 
-# print content of request
+# imprime el contenido de la solicitud
 print(r.content)
